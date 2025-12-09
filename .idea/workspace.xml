@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a8edb3e-860d-4914-adc5-5b6d8b08d95c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DongGoi/NhanVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DongGoi/NhanVien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/TestKeThua.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KeThua/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KeThua/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KeThua/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KeThua/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
   "keyToString": {
     "Application.DongGoi.Main.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.TestKeThua.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -54,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DongGoi.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="DongGoi.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DongGoi.Main" />
       <module name="OOP" />
@@ -81,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KeThua.Test" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KeThua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestKeThua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KeThua.TestKeThua" />
       <module name="OOP" />
@@ -96,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.DongGoi.Main" />
         <item itemvalue="Application.TestKeThua" />
         <item itemvalue="Application.Main" />
@@ -118,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765265913745</updated>
-      <workItem from="1765265914816" duration="4349000" />
+      <workItem from="1765265914816" duration="5205000" />
     </task>
     <servers />
   </component>
