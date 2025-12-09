@@ -3,16 +3,16 @@ package DongGoi;
 public class NhanVien {
     private String ten;
     private int tuoi;
-    private double luongCoBan ;
-    private int soNgayDiLam ;
-    private String viTri ;
+    private double luongCoBan;
+    private int soNgayDiLam;
+    private String viTri;
 
     public NhanVien(String ten, int tuoi, double luongCoBan, int soNgayDiLam, String viTri) {
-        this.ten = ten;
-        this.tuoi = tuoi;
-        this.luongCoBan = luongCoBan;
-        this.soNgayDiLam = soNgayDiLam;
-        this.viTri = viTri;
+        setTen(ten);
+        setTuoi(tuoi);
+        setLuongCoBan(luongCoBan);
+        setSoNgayDiLam(soNgayDiLam);
+        setViTri(viTri);
     }
 
     public String getTen() {
@@ -20,6 +20,7 @@ public class NhanVien {
     }
 
     public void setTen(String ten) {
+        checkValidateName(ten);
         this.ten = ten;
     }
 
@@ -45,6 +46,7 @@ public class NhanVien {
     }
 
     public void setSoNgayDiLam(int soNgayDiLam) {
+        checkValidateSoNgayCong(soNgayDiLam);
         this.soNgayDiLam = soNgayDiLam;
     }
 
@@ -57,16 +59,29 @@ public class NhanVien {
     }
 
     public void checkValidateLuongCoBan(double luongCoBan) {
-         if (luongCoBan < 0) {
-             throw new IllegalArgumentException("Lỗi");
-         }
+        if (luongCoBan < 0) {
+            throw new IllegalArgumentException("Phải lớn hơn 0");
+        }
     }
 
-    public double tinhThucNhan (){
-        return soNgayDiLam * luongCoBan ;
+    public void checkValidateSoNgayCong(int soNgayDiLam) {
+        if (soNgayDiLam < 0) {
+            throw new IllegalArgumentException("Phải lớn hơn 0");
+        }
     }
 
-    public void displayInfo(){
+    public void checkValidateName(String name) {
+        if (name == null || name.isEmpty()) {
+            System.out.println("Trống tên");
+            return ;
+        }
+    }
+
+    public double tinhThucNhan() {
+        return soNgayDiLam * luongCoBan;
+    }
+
+    public void displayInfo() {
         System.out.println("Tên: " + ten);
         System.out.println("Tuổi: " + tuoi);
         System.out.println("Lương ngày: " + luongCoBan);
