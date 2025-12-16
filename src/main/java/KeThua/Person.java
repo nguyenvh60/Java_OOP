@@ -5,7 +5,7 @@ public class Person {
 
     public Person(String name, int age) {
         this.name = name;
-        this.age = age;
+        setAge(age);
     }
 
     public String getName() {
@@ -21,10 +21,20 @@ public class Person {
     }
 
     public void setAge(int age) {
+        validateAge(age);
         this.age = age;
     }
 
-    public void displayInfoCountry (){
-        System.out.println("I am from Viet Nam");
+    private void validateAge (int age){
+        if (age < 18){
+            throw new IllegalArgumentException("Age must be greater than 18");
+        }
     }
+
+    public void printBasicInfo (){
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+
+
 }
