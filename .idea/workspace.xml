@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a8edb3e-860d-4914-adc5-5b6d8b08d95c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DaHinh/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DaHinh/FullTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DaHinh/PartTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DaHinh/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeThua/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeThua/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeThua/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeThua/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeThua/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestKeThua.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TruuTuong.Test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -60,7 +56,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DaHinh.Test">
+  <component name="RunManager" selected="Application.TruuTuong.Test">
     <configuration name="DaHinh.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaHinh.Test" />
       <module name="OOP" />
@@ -80,19 +76,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DongGoi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TruuTuong.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TruuTuong.Test" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TruuTuong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TruuTuong.Test" />
         <item itemvalue="Application.DaHinh.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DongGoi.Main" />
         <item itemvalue="Application.TestKeThua" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +153,9 @@
       <workItem from="1765526716487" duration="1663000" />
       <workItem from="1765773098539" duration="9478000" />
       <workItem from="1765796650798" duration="2700000" />
+      <workItem from="1765859144343" duration="57000" />
+      <workItem from="1766045863183" duration="1312000" />
+      <workItem from="1766127469255" duration="509000" />
     </task>
     <servers />
   </component>
