@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a8edb3e-860d-4914-adc5-5b6d8b08d95c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TruuTuong/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TruuTuong/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TruuTuong/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +42,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.DaHinh.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.DongGoi.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Interface.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestKeThua.executor&quot;: &quot;Run&quot;,
@@ -56,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TruuTuong.Test">
+  <component name="RunManager" selected="Application.Interface.Test">
     <configuration name="DaHinh.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaHinh.Test" />
       <module name="OOP" />
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KeThua.Test" />
+    <configuration name="Interface.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface.Test" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KeThua.*" />
+          <option name="PATTERN" value="Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestKeThua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KeThua.TestKeThua" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KeThua.Test" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interface.Test" />
         <item itemvalue="Application.TruuTuong.Test" />
         <item itemvalue="Application.DaHinh.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DongGoi.Main" />
-        <item itemvalue="Application.TestKeThua" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +159,10 @@
       <workItem from="1765796650798" duration="2700000" />
       <workItem from="1765859144343" duration="57000" />
       <workItem from="1766045863183" duration="1312000" />
-      <workItem from="1766127469255" duration="509000" />
+      <workItem from="1766127469255" duration="3105000" />
+      <workItem from="1766134566781" duration="1386000" />
+      <workItem from="1766156895193" duration="121000" />
+      <workItem from="1766198994915" duration="3327000" />
     </task>
     <servers />
   </component>
