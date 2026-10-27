@@ -2,26 +2,28 @@ package org.example.ClassObject;
 
 public class Test {
     public static void main(String[] args) {
-        Book book = new Book(); // constructor rong mac dinh
+        // Object là một thực thể được tạo từ Class, có du liệu, trạng thái và hành vi
+        // 1 Class có thể có nhiều Object
 
-       //  Book book4 = new Book("Python","gg",300);// phai truyen du doi so neu co 1 constructor co tham so
-        // Book la kieu du lieu duoc tham chieu, book la bien tham chieu, new Book () la tao doi tuong moi
+        // tự sinh 1 constructor mặc định nếu có constructor không tham số hoặc k tạo constructor
+        Book book = new Book();
 
-        book.title = "Java";
-        book.author = "James";
-        book.price = 3000 ;
+        // phải truyền đủ đối số nếu có constructor có tham số
+//        Book book2 = new Book("Java","James",2000);
+        // Book là kiểu dl tham chiếu, book là biến tham chiếu, new Book() là tạo 1 đôi tượng mới
 
-        // bien tham chieu tro vao thuoc tinh doi tuong
+        book.title = "Title1" ;
+        book.author = "Author1" ;
+        book.price = 12.5 ;
+        // tham chiếu đến thuộc tính của đối tượng
 
-        Book book2 = new Book();
-        book2.title = "Javascript";
-        book2.author = "James M";
-        book2.price = 3000 ;
+        book.displayInfo(); // gọi phương thức
 
-        Book book3 = book2 ; // sao chep gia tri tham chieu
+        Book book2 = book; // sao chép giá trị nên cả 2 biến cùng truy cập đến 1 đt
 
-        book.displayInfo();
-        book2.displayInfo();
-        book3.displayInfo();
+        book2.displayInfo() ;
+
+
     }
+
 }
