@@ -37,6 +37,7 @@ public class BankAccount {
     }
 
     // set cho phep thay đổi giá trị của thuộc tính nhưng sẽ check input có hợp lệ không thì mới cho đổi
+    // Về mặt nghiệp vụ thì không nên có setBalance()
     public void setBalance(double balance) {
         if (balance < 0 ||
                 Double.isNaN(balance)) {
