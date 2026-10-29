@@ -6,6 +6,8 @@ public class Student extends Person {
         super(name, age);
         this.studentId = studentId;
     }
+
+
     void displayInfoStudent() {
         System.out.println("Id : " + studentId);
         System.out.println("Name : " +getName());
